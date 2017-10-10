@@ -1,0 +1,16 @@
+language: bash
+services: docker
+
+before_script:
+   - docker info
+   - docker images
+
+script:
+   - make
+
+after_script:
+   - docker images
+   - docker run -dt --name=pydio cedvan/pydio:latest
+   - sleep 5
+   - docker logs pydio
+   - docker rm -f pydio

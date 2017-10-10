@@ -1,0 +1,36 @@
+{
+  "core.conf":{
+    "UNIQUE_INSTANCE_CONFIG":{
+      "instance_name":"conf.sql",
+      "group_switch_value":"conf.sql",
+      "SQL_DRIVER":{
+        "core_driver":"core",
+        "group_switch_value":"core"
+      }
+    },
+    "DIBI_PRECONFIGURATION":{
+      "mysql_username":"DB_USER",
+      "mysql_password":"DB_PASSWORD",
+      "mysql_host":"DB_HOST",
+      "mysql_database":"DB_NAME",
+      "mysql_use_mysqli":"true",
+      "mysql_driver":"mysql",
+      "group_switch_value":"mysql"
+    }
+  },
+  "core.auth":{
+    "MASTER_INSTANCE_CONFIG":{
+      "instance_name":"auth.sql",
+      "group_switch_value":"auth.sql",
+      "SQL_DRIVER":{
+        "core_driver":"core",
+        "group_switch_value":"core"
+      }
+    }
+  },
+  "core.cache":{
+    "UNIQUE_INSTANCE_CONFIG":[
+
+    ]
+  }
+}
