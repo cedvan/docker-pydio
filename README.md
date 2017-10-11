@@ -17,7 +17,7 @@ Complete Solution of sharing and sync for your employees. Open source software d
 ```bash
 docker run --name pydio -d \
     -p 80:80 \
-    cedvan/pydio:latest
+    cedvan/pydio:8.0.1
 ```
 - Go with your browser to **localhost**
 - Install pydio with wizard
@@ -31,7 +31,7 @@ To use a specfic DNS, configure pydio host.
 docker run --name pydio -d \
     -p 80:80 \
     -e "PYDIO_HOST=domain.com" \
-    cedvan/pydio:latest
+    cedvan/pydio:8.0.1
 ```
 
 ## Save Pydio data
@@ -41,7 +41,7 @@ Pydio files are saved to `/data/pydio` in container. Just mount this volume for 
 ```bash
 docker run --name pydio -d \
     -v /opt/pydio:/data/pydio \
-    cedvan/pydio:latest
+    cedvan/pydio:8.0.1
 ```
 
 ## Pydio database
@@ -64,7 +64,7 @@ You can configure this parameters, cf [Pydio Options](#pydio-options)
 ```bash
 docker run --name pydio -d \
     -v /opt/pydio-mysql:/var/lib/mysql \
-    cedvan/pydio:latest
+    cedvan/pydio:8.0.1
 ```
 *Don't forget mount `/var/lib/mysql` to save MySQL data*
 
@@ -95,7 +95,7 @@ docker run --name pydio -d \
     -e "DB_NAME=my_pydio" \
     -e "DB_USER=my_pydio_db_user" \
     -e "DB_PASSWORD=my_pydio_db_password" \
-    cedvan/pydio:latest
+    cedvan/pydio:8.0.1
 ```
 
 And configure database parameters in Pydio with wizard installation
@@ -108,7 +108,7 @@ docker run --name pydio -d \
     -e "PYDIO_HTTPS=true" \
     -e "PYDIO_FORCE_HTTPS=true" \
     -v /opt/pydio/certs:/data/certs \
-    cedvan/pydio:latest
+    cedvan/pydio:8.0.1
 ```
 *Add your **pydio.key** and **pydio.crt** in folder **certs**. If `pydio.key` and `pydio.crt` do not exist, the container will create self-signed certificates*
 
@@ -119,7 +119,7 @@ docker run --name pydio -d \
     -e "PYDIO_HTTPS_PORT=443" \
     -e "PYDIO_HTTPS_REVERSE_PROXY=true" \
     -v /opt/pydio/certs:/data/certs \
-    cedvan/pydio:latest
+    cedvan/pydio:8.0.1
 ```
 *Configure your proxy to redirect on container on port 443. No need certificates in container with this configuration*
 
