@@ -1,9 +1,11 @@
 # Docker Pydio
 
-[![Build Status](https://img.shields.io/travis/cedvan/docker-pydio/master.svg?style=flat-square)](https://travis-ci.org/cedvan/docker-pydio)
+[![Version](https://images.microbadger.com/badges/version/cedvan/pydio:8.0.1.svg)](https://microbadger.com/images/cedvan/pydio:8.0.1 "Get your own version badge on microbadger.com")
 [![Docker Pulls](https://img.shields.io/docker/pulls/cedvan/pydio.svg?style=flat-square)](https://hub.docker.com/r/cedvan/pydio/)
 [![Docker Stars](https://img.shields.io/docker/stars/cedvan/pydio.svg?style=flat-square)](https://hub.docker.com/r/cedvan/pydio/)
 [![Docker image](https://images.microbadger.com/badges/image/cedvan/pydio.svg?style=flat-square)](https://microbadger.com/#/images/cedvan/pydio "Size docker image on Docker Hub")
+
+[![Build Status](https://img.shields.io/travis/cedvan/docker-pydio/master.svg?style=flat-square)](https://travis-ci.org/cedvan/docker-pydio)
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/cedvan/docker-pydio.svg)](http://isitmaintained.com/project/cedvan/docker-pydio "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/cedvan/docker-pydio.svg)](http://isitmaintained.com/project/cedvan/docker-pydio "Percentage of issues still open")
 [![GitHub license](https://img.shields.io/:license-mit-blue.svg?style=flat-square)]()
