@@ -11,6 +11,6 @@ script:
 after_script:
    - docker images
    - docker run -dt --name=pydio cedvan/pydio:latest
-   - sleep 5
+   - sleep 10
    - docker logs pydio
    - docker rm -f pydio
