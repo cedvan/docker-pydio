@@ -1,5 +1,7 @@
 # Docker Pydio
 
+[![Join the chat at https://gitter.im/cedvan/docker-pydio](https://badges.gitter.im/cedvan/docker-pydio.svg)](https://gitter.im/cedvan/docker-pydio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Version](https://images.microbadger.com/badges/version/cedvan/pydio:8.0.1.svg)](https://microbadger.com/images/cedvan/pydio:8.0.1 "Get your own version badge on microbadger.com")
 [![Docker Pulls](https://img.shields.io/docker/pulls/cedvan/pydio.svg?style=flat-square)](https://hub.docker.com/r/cedvan/pydio/)
 [![Docker Stars](https://img.shields.io/docker/stars/cedvan/pydio.svg?style=flat-square)](https://hub.docker.com/r/cedvan/pydio/)
