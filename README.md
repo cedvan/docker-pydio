@@ -8,6 +8,7 @@
 [![Build Status](https://img.shields.io/travis/cedvan/docker-pydio/master.svg?style=flat-square)](https://travis-ci.org/cedvan/docker-pydio)
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/cedvan/docker-pydio.svg)](http://isitmaintained.com/project/cedvan/docker-pydio "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/cedvan/docker-pydio.svg)](http://isitmaintained.com/project/cedvan/docker-pydio "Percentage of issues still open")
+[![Join the chat at https://gitter.im/cedvan/docker-pydio](https://badges.gitter.im/cedvan/docker-pydio.svg)](https://gitter.im/cedvan/docker-pydio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![GitHub license](https://img.shields.io/:license-mit-blue.svg?style=flat-square)]()
 
 ![pydio](https://raw.githubusercontent.com/cedvan/docker-pydio/master/img/pydio.png "pydio")
