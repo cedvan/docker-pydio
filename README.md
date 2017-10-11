@@ -139,12 +139,11 @@ Below is the complete list of available options that can be used to customize yo
 - **PYDIO_HTTPS_REVERSE_PROXY**: Set to `true` if you use docker behind a reverse proxy for i.e. ssl termination. This will make pydio use the HTTPS scheme without the need to add certificates. If you do so, make sure to set your reverse proxy to target port 443. Defaults to `false`
 - **PYDIO_FORCE_HTTPS**: Set to `true` if you want Pydio automatically redirect to https. Defaults to `false`
 - **PYDIO_LOCALE**: Set to configure default locale used by Pydio. Defaults to `en_US`
-- **PYDIO_DB_HOST**: Set to configure database host. This image provide a embedded mysql, but you can specify external database with this parameter. Defaults to `localhost`
-- **PYDIO_DB_PORT**: Set to configure database port. Defaults to `3306`
-- **PYDIO_DB_NAME**: Set to configure database name. Defaults to `pydio`
-- **PYDIO_DB_USER**: Set to configure database user. Defaults to `pydio`
-- **PYDIO_DB_PASSWORD**: Set to configure database password. Defaults to `pydio`
-- **PYDIO_DB_ROOT_PASSWORD**: Set to configure database root password. Defaults to `root`
+- **DB_HOST**: Set to configure database host. This image provide a embedded mysql, but you can specify external database with this parameter. Defaults to `localhost`
+- **DB_PORT**: Set to configure database port. Defaults to `3306`
+- **DB_NAME**: Set to configure database name. Defaults to `pydio`
+- **DB_USER**: Set to configure database user. Defaults to `pydio`
+- **DB_PASSWORD**: Set to configure database password. Defaults to `pydio`
 - **PHP_TIMEZONE**: Configure timezone PHP. Default `Europe/Paris`.
 
 ## Pdyio License
