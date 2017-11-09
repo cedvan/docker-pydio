@@ -37,6 +37,10 @@ echo "Configure path pydio data"
 rm -rf $WORK_DIRECTORY/core/src/data
 ln -s $DATA_DIRECTORY/pydio $WORK_DIRECTORY/core/src/data
 
+echo "configure tmp directory"
+rm -rf /tmp
+ln -s $DATA_DIRECTORY/pydio/tmp /tmp
+
 # Loading permissions
 echo "Loading permissions..."
 chown -R www-data:www-data \
