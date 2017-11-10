@@ -1,6 +1,8 @@
 # Changelog
 
 **latest**
+
+**8.0.1-2**
 - Configure pydio temporary directory
 
 **8.0.1-1**

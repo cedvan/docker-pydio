@@ -1,6 +1,6 @@
 # Docker Pydio
 
-[![Version](https://images.microbadger.com/badges/version/cedvan/pydio:8.0.1-1.svg)](https://microbadger.com/images/cedvan/pydio:8.0.1-1 "Get your own version badge on microbadger.com")
+[![Version](https://images.microbadger.com/badges/version/cedvan/pydio:8.0.1-2.svg)](https://microbadger.com/images/cedvan/pydio:8.0.1-2 "Get your own version badge on microbadger.com")
 [![Docker Pulls](https://img.shields.io/docker/pulls/cedvan/pydio.svg?style=flat-square)](https://hub.docker.com/r/cedvan/pydio/)
 [![Docker Stars](https://img.shields.io/docker/stars/cedvan/pydio.svg?style=flat-square)](https://hub.docker.com/r/cedvan/pydio/)
 [![Docker image](https://images.microbadger.com/badges/image/cedvan/pydio.svg?style=flat-square)](https://microbadger.com/#/images/cedvan/pydio "Size docker image on Docker Hub")
@@ -20,7 +20,7 @@ Complete Solution of sharing and sync for your employees. Open source software d
 ```bash
 docker run --name pydio -d \
     -p 80:80 \
-    cedvan/pydio:8.0.1-1
+    cedvan/pydio:8.0.1-2
 ```
 - Go with your browser to **localhost**
 - Install pydio with wizard
@@ -34,7 +34,7 @@ To use a specfic DNS, configure pydio host.
 docker run --name pydio -d \
     -p 80:80 \
     -e "PYDIO_HOST=domain.com" \
-    cedvan/pydio:8.0.1-1
+    cedvan/pydio:8.0.1-2
 ```
 
 ## Save Pydio data
@@ -44,7 +44,7 @@ Pydio files are saved to `/data/pydio` in container. Just mount this volume for 
 ```bash
 docker run --name pydio -d \
     -v /opt/pydio:/data/pydio \
-    cedvan/pydio:8.0.1-1
+    cedvan/pydio:8.0.1-2
 ```
 
 ## Pydio database
@@ -67,7 +67,7 @@ You can configure this parameters, cf [Pydio Options](#pydio-options)
 ```bash
 docker run --name pydio -d \
     -v /opt/pydio-mysql:/var/lib/mysql \
-    cedvan/pydio:8.0.1-1
+    cedvan/pydio:8.0.1-2
 ```
 *Don't forget mount `/var/lib/mysql` to save MySQL data*
 
@@ -98,7 +98,7 @@ docker run --name pydio -d \
     -e "DB_NAME=my_pydio" \
     -e "DB_USER=my_pydio_db_user" \
     -e "DB_PASSWORD=my_pydio_db_password" \
-    cedvan/pydio:8.0.1-1
+    cedvan/pydio:8.0.1-2
 ```
 
 And configure database parameters in Pydio with wizard installation
@@ -111,7 +111,7 @@ docker run --name pydio -d \
     -e "PYDIO_HTTPS=true" \
     -e "PYDIO_FORCE_HTTPS=true" \
     -v /opt/pydio/certs:/data/certs \
-    cedvan/pydio:8.0.1-1
+    cedvan/pydio:8.0.1-2
 ```
 *Add your **pydio.key** and **pydio.crt** in folder **certs**. If `pydio.key` and `pydio.crt` do not exist, the container will create self-signed certificates*
 
@@ -122,7 +122,7 @@ docker run --name pydio -d \
     -e "PYDIO_HTTPS_PORT=443" \
     -e "PYDIO_HTTPS_REVERSE_PROXY=true" \
     -v /opt/pydio/certs:/data/certs \
-    cedvan/pydio:8.0.1-1
+    cedvan/pydio:8.0.1-2
 ```
 *Configure your proxy to redirect on container on port 443. No need certificates in container with this configuration*
 
