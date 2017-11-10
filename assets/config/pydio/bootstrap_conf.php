@@ -19,3 +19,8 @@ define("AJXP_FORCE_SSL_REDIRECT", PYDIO_FORCE_HTTPS);
  * Configure data path
  */
 define("AJXP_DATA_PATH", "/data/pydio");
+
+/*
+ * Configure temporary directory
+ */
+define("AJXP_TMP_DIR", AJXP_DATA_PATH."/tmp");
